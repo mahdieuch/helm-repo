@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-app-helm
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://mahdieuch.github.io/helm-repo
+    chart: my-application
+    targetRevision: '*'
+    helm:
+      releaseName: my-template-app
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: app-helm
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+
