@@ -3,7 +3,17 @@ entries:
   my-application:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-20T20:07:28.611062068+02:00"
+    created: "2025-07-20T20:33:44.19583657+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 7953bece84b92383c119972a079c3ca7a96d045ce68a9fe1d885104597165b7e
+    name: my-application
+    type: application
+    urls:
+    - https://mahdieuch.github.io/helm-repo/my-application-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-07-20T20:33:44.188776291+02:00"
     description: A Helm chart for Kubernetes
     digest: 385040738732d3bf204979212bd00f4935a49d9d5bf0a49ad2758d8d8eec9d05
     name: my-application
@@ -13,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-20T20:07:28.610387511+02:00"
+    created: "2025-07-20T20:33:44.186054246+02:00"
     description: A Helm chart for Kubernetes
     digest: e620e7ba9e9d50deaa291193ce32911ac50c1ceea4c8567b03c250fb70d79243
     name: my-application
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-20T20:07:28.609684804+02:00"
+    created: "2025-07-20T20:33:44.184592418+02:00"
     description: A Helm chart for Kubernetes
     digest: a9d72f78ec99b529bef6cd9d507e101a0bf7dd480359ecd797a75e42890b84cb
     name: my-application
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://mahdieuch.github.io/helm-repo/my-application-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-20T20:07:28.608517879+02:00"
+generated: "2025-07-20T20:33:44.181127166+02:00"
